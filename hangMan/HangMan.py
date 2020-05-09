@@ -128,5 +128,5 @@ if __name__=='__main__':
     biercetxt = clean(bad,open('Bierce.txt').read())
     wbl = wordsByLength(biercetxt)
     # random word with random length, change the number for different difficulty
-    playHangman(random.choice(wbl[random.randrange(5,12)]))
+    playHangman(random.choice(wbl[random.randint(5,12)]))
 
